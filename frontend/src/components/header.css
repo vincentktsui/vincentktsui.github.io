@@ -1,0 +1,29 @@
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 100px 0;
+}
+
+.text-container {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.text-container > p {
+  margin-top: 20px;
+  line-height: 28px;;
+}
+
+.display-picture {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.header-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}

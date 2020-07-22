@@ -3,13 +3,14 @@
   width: 100%;
   flex-direction: column;
   text-align: center;
-
+  margin: 100px 0;
 }
 
 .skills-container > h2 {
   color: #333;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .skills-container i {

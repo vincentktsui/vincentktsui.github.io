@@ -1,0 +1,32 @@
+.skills-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.skills-container > h2 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills-container i {
+  font-size: 72px;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin: 10px;
+  display: block;
+}
+.logos-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

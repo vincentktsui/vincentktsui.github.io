@@ -10,8 +10,8 @@ const Main = () => {
   return (
     <div className="main-container">
       <Header />
-      <About />
       <Projects />
+      <About />
       <Skills />
     </div>
   )

@@ -10,4 +10,97 @@
   font-size: 32px;
   font-weight: bold;
   color: #333;
+  margin-bottom: 20px;
+}
+
+.projects-internal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projects-internal-container div {
+  width: 25vw;
+  height: calc(25vw / 2);
+  background-size: cover;
+  vertical-align: bottom; 
+}
+
+.projects-internal-container section {
+  color: #333;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, .9);
+  opacity: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.projects-internal-container section > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #79a7e8;
+}
+
+.projects-internal-container section > p {
+  color: #79a7e8;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.trippy-aide {
+  background-image: url("/trippyaide.png");
+}
+
+.trippy-aide:hover > section {
+  opacity: 1;
+  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -o-animation: fadein 0.5s;
+  -ms-animation: fadein 0.5s;
+}
+
+.binding-of-jsaac {
+  background-image: url("/bindingofjsaac.png");
+}
+
+.binding-of-jsaac:hover > section {
+  opacity: 1;
+  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -o-animation: fadein 0.5s;
+  -ms-animation: fadein 0.5s;
+}
+
+.river-flow {
+  background-image: url("/riverflow.png");
+}
+
+.river-flow:hover > section {
+  opacity: 1;
+  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -o-animation: fadein 0.5s;
+  -ms-animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

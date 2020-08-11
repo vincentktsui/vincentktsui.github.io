@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin: 100px 0;
+  margin-top: 100px;
 }
 
 .text-container {
@@ -10,9 +10,13 @@
   width: 50%;
 }
 
-.text-container > p {
+.text-container > div {
   margin-top: 20px;
   line-height: 28px;;
+}
+
+.text-container > section {
+  line-height: 36px;
 }
 
 .display-picture {
@@ -26,4 +30,16 @@
   font-size: 40px;
   font-weight: bold;
   color: #333;
+}
+
+.fab, .far {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  text-align: center;
+  /* vertical-align: middle; */
+  font-size: 20px;
+  line-height: 35px;
 }

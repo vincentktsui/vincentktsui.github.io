@@ -32,14 +32,14 @@
   color: #333;
 }
 
-.fab, .far {
+.fab, .far, .fas {
+  color: #333;
   display: inline-block;
   width: 35px;
   height: 35px;
   border: 1px solid #333;
   border-radius: 50%;
   text-align: center;
-  /* vertical-align: middle; */
   font-size: 20px;
   line-height: 35px;
 }

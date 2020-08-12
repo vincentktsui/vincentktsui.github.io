@@ -20,11 +20,12 @@ const Header = () => {
           <a href="https://angel.co/u/vincent-tsui-1" target="_blank"><i className="fab fa-angellist"></i></a>
           <br/>
           Shoot me an &nbsp;
-          <a href="" target="_blank"><span className="far fa-envelope"></span></a>
+          <a href="mailto:vincentktsui@gmail.com"><span className="far fa-envelope"></span></a>
           <br/>
           Check out my &nbsp;
           <a href="https://github.com/vincentktsui" target="_blank"><span className="fab fa-github"></span></a>
-
+          &nbsp; and &nbsp;
+          <a href="/resume.pdf" target="_blank"><i className="fas fa-file-alt"></i></a>
         </section>
       </div>
       <div className="picture-container">
